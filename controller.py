@@ -53,7 +53,7 @@ class ComicTranslate(ComicTranslateUI):
 
     def __init__(self, parent=None):
         super(ComicTranslate, self).__init__(parent)
-        self.setWindowTitle("Project1.ctpr[*]")
+        self.setWindowTitle("Absolute Translate[*]")
 
         # Memory logging toggle for local diagnostics.
         # Start as early as possible after QWidget init so we can attribute idle RSS.
